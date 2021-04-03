@@ -37,7 +37,7 @@ include "Navbar_A.php";
 				}	
 				$q=mysqli_query($db,"SELECT * FROM admin where username='$_SESSION[login_user]' ;");
 			?>
-			<h2 style="text-align:center;">My6 Profile</h2>
+			<h2 style="text-align:center;">My Profile</h2>
 			<?php
 				$row=mysqli_fetch_assoc($q);
 				echo "<div style='text-align:center'>
